@@ -1,0 +1,347 @@
+buying;maint;doors;persons;lug_boot;safety;class;prediction;rmatrix_rule;rmatrix_rule_len;rmatrix_rule_len_unique;rmatrix_precision;rmatrix_coverage;anchor_rule;anchor_rule_len;anchor_precision;anchor_coverage;anchor_precision_correct;anchor_coverage_correct
+high;high;4;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.327;1.0;0.46209016393442626
+med;low;2;4;med;med;acc;good;persons = {4} AND safety = {med} AND buying = {med} AND maint = {low};4;4;0.75;0.1016949152542373;maint = low AND buying = med AND safety = med AND lug_boot = med AND persons = 4;5;1.0;0.0004;1.0;0.03389830508474576
+high;high;5more;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3192;1.0;0.46209016393442626
+low;high;5more;4;med;med;acc;acc;persons = {4} AND safety = {med} AND buying = {low} AND maint = {high};4;4;1.0;0.033112582781456956;persons = 4 AND safety = med AND buying = low AND maint = high;4;1.0;0.008;1.0;0.033112582781456956
+med;low;4;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3456;1.0;0.48155737704918034
+med;vhigh;4;4;med;med;acc;acc;persons = {4} AND safety = {med} AND buying = {med};3;3;0.625;0.08278145695364239;persons = 4 AND safety = med AND buying = med AND doors = 4 AND lug_boot = med AND maint = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;vhigh;2;more;med;high;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;maint = vhigh AND buying = vhigh;2;1.0;0.0624;1.0;0.09016393442622951
+high;low;5more;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3275;1.0;0.46209016393442626
+med;vhigh;5more;more;small;med;unacc;unacc;safety = {med} AND maint = {vhigh} AND lug_boot = {small};3;3;1.0;0.040983606557377046;maint = vhigh AND lug_boot = small AND safety = med;3;1.0;0.0285;1.0;0.040983606557377046
+high;low;2;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3246;1.0;0.46209016393442626
+low;high;4;more;med;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {low} AND maint = {high} AND lug_boot = {med};5;5;0.6666666666666666;0.04081632653061224;safety = high AND buying = low AND persons = more AND maint = high AND doors = 4 AND lug_boot = med;6;1.0;0.0;1.0;0.02040816326530612
+med;med;5more;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {med};3;3;0.6216216216216216;0.076158940397351;safety = high AND persons = 4 AND buying = med AND lug_boot = small AND maint = med;5;1.0;0.0;1.0;0.0033112582781456954
+vhigh;low;2;more;small;high;unacc;unacc;persons = {more};1;1;0.5717391304347826;0.2694672131147541;buying = vhigh AND lug_boot = small AND doors = 2 AND persons = more;4;1.0;0.0082;1.0;0.011270491803278689
+vhigh;low;5more;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3229;1.0;0.46209016393442626
+high;vhigh;4;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.321;1.0;0.46209016393442626
+vhigh;med;5more;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3282;1.0;0.46209016393442626
+high;vhigh;5more;4;big;med;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0603;1.0;0.08299180327868852
+low;low;3;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3252;1.0;0.46209016393442626
+med;low;2;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3284;1.0;0.46209016393442626
+low;high;5more;more;med;med;acc;acc;persons = {more} AND safety = {med} AND buying = {low} AND maint = {high} AND lug_boot = {med};5;5;1.0;0.009933774834437087;safety = med AND persons = more AND doors = 5more AND lug_boot = med AND maint = high AND buying = low;6;1.0;0.0;1.0;0.0033112582781456954
+high;high;2;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3292;1.0;0.46209016393442626
+vhigh;low;3;more;small;high;acc;acc;persons = {more} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.023178807947019868;safety = high AND persons = more AND doors = 3 AND lug_boot = small AND buying = vhigh AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+low;vhigh;3;4;big;high;acc;acc;persons = {4} AND safety = {high} AND buying = {low} AND maint = {vhigh};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND doors = 3 AND maint = vhigh AND buying = low;5;1.0;0.0013;1.0;0.009933774834437087
+high;med;5more;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3249;1.0;0.46209016393442626
+vhigh;med;3;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {vhigh} AND maint = {med};4;4;1.0;0.039735099337748346;safety = high AND persons = 4 AND maint = med AND buying = vhigh;4;1.0;0.0091;1.0;0.039735099337748346
+high;low;4;more;small;med;unacc;unacc;safety = {med} AND buying = {high} AND lug_boot = {small};3;3;1.0;0.042008196721311473;lug_boot = small AND buying = high AND safety = med;3;1.0;0.0305;1.0;0.042008196721311473
+high;vhigh;3;more;small;high;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0592;1.0;0.08299180327868852
+vhigh;med;5more;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3375;1.0;0.48155737704918034
+med;low;2;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3241;1.0;0.46209016393442626
+high;high;4;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3296;1.0;0.46209016393442626
+med;vhigh;4;more;med;med;acc;acc;persons = {more} AND safety = {med} AND buying = {med} AND maint = {vhigh} AND lug_boot = {med};5;5;0.75;0.009933774834437087;persons = more AND safety = med AND buying = med AND doors = 4 AND lug_boot = med AND maint = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;low;3;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3281;1.0;0.46209016393442626
+vhigh;high;4;4;small;high;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.0622;1.0;0.09221311475409837
+low;low;4;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3251;1.0;0.46209016393442626
+med;high;5more;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {med} AND maint = {high} AND lug_boot = {big};5;5;1.0;0.013245033112582781;persons = more AND safety = med AND lug_boot = big AND maint = high AND buying = med;5;1.0;0.0025;1.0;0.013245033112582781
+low;low;2;4;med;med;acc;good;persons = {4} AND safety = {med} AND buying = {low} AND maint = {low} AND lug_boot = {med};5;5;1.0;0.05084745762711865;buying = low AND maint = low AND safety = med AND persons = 4 AND lug_boot = med;5;1.0;0.0015;1.0;0.05084745762711865
+low;med;5more;more;med;med;good;good;persons = {more} AND safety = {med} AND buying = {low} AND maint = {med} AND lug_boot = {med};5;5;1.0;0.05084745762711865;buying = low AND maint = med AND safety = med AND persons = more AND lug_boot = med;5;1.0;0.0015;1.0;0.05084745762711865
+low;low;3;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.336;1.0;0.48155737704918034
+high;low;4;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3464;1.0;0.48155737704918034
+low;high;3;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3384;1.0;0.48155737704918034
+low;high;5more;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3339;1.0;0.48155737704918034
+high;low;5more;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3382;1.0;0.48155737704918034
+low;high;5more;more;small;med;acc;acc;persons = {more} AND safety = {med} AND buying = {low} AND maint = {high};4;4;0.8888888888888888;0.026490066225165563;persons = more AND safety = med AND doors = 5more AND maint = high AND buying = low;5;1.0;0.0009;1.0;0.006622516556291391
+high;med;3;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {high} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.009933774834437087;persons = more AND safety = med AND lug_boot = big AND maint = med AND buying = high;5;1.0;0.0014;1.0;0.009933774834437087
+med;med;2;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {med};3;3;0.6216216216216216;0.076158940397351;safety = high AND persons = 4 AND buying = med AND lug_boot = small AND maint = med;5;1.0;0.0;1.0;0.0033112582781456954
+low;high;3;more;med;high;vgood;acc;persons = {more} AND safety = {high} AND maint = {high} AND lug_boot = {med};4;4;0.75;0.029801324503311258;safety = high AND persons = more AND lug_boot = med AND maint = high AND doors = 3 AND buying = low;6;1.0;0.0;1.0;0.0033112582781456954
+med;low;4;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3267;1.0;0.46209016393442626
+low;high;2;4;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3337;1.0;0.48155737704918034
+med;vhigh;3;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3325;1.0;0.46209016393442626
+low;low;3;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3304;1.0;0.46209016393442626
+vhigh;high;4;more;big;high;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.0657;1.0;0.09221311475409837
+high;low;4;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3252;1.0;0.46209016393442626
+med;vhigh;4;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {med};3;3;0.5641025641025641;0.0728476821192053;safety = med AND persons = more AND lug_boot = big AND buying = med AND maint = vhigh;5;1.0;0.0003;1.0;0.006622516556291391
+med;high;2;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3299;1.0;0.46209016393442626
+high;vhigh;3;more;med;med;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0574;1.0;0.08299180327868852
+low;high;2;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3419;1.0;0.48155737704918034
+med;high;4;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3287;1.0;0.46209016393442626
+low;low;5more;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3326;1.0;0.48155737704918034
+high;high;3;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3402;1.0;0.48155737704918034
+med;low;4;4;med;med;good;good;persons = {4} AND safety = {med} AND buying = {med} AND maint = {low};4;4;0.75;0.1016949152542373;maint = low AND buying = med AND safety = med AND lug_boot = med AND persons = 4;5;1.0;0.0006;1.0;0.03389830508474576
+high;vhigh;3;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3415;1.0;0.48155737704918034
+high;med;4;more;med;med;acc;acc;persons = {more} AND safety = {med} AND buying = {high} AND maint = {med} AND lug_boot = {med};5;5;0.75;0.009933774834437087;persons = more AND safety = med AND maint = med AND doors = 4 AND lug_boot = med AND buying = high;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;high;2;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.316;1.0;0.46209016393442626
+med;high;2;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.335;1.0;0.48155737704918034
+med;low;4;more;small;med;acc;acc;persons = {more} AND safety = {med} AND buying = {med} AND maint = {low} AND lug_boot = {small};5;5;0.6666666666666666;0.006622516556291391;safety = med AND persons = more AND buying = med AND doors = 4 AND lug_boot = small AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+low;med;4;more;big;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {low} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.061224489795918366;safety = high AND buying = low AND lug_boot = big AND persons = more AND maint = med;5;1.0;0.0012;1.0;0.061224489795918366
+high;vhigh;5more;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3398;1.0;0.48155737704918034
+high;high;2;4;big;high;acc;acc;persons = {4} AND safety = {high} AND buying = {high} AND maint = {high};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND buying = high AND maint = high;4;1.0;0.0056;1.0;0.029801324503311258
+high;med;4;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {high} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.009933774834437087;persons = more AND safety = med AND lug_boot = big AND maint = med AND buying = high;5;1.0;0.0005;1.0;0.009933774834437087
+low;vhigh;2;4;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.332;1.0;0.48155737704918034
+med;low;3;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3304;1.0;0.46209016393442626
+high;high;3;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3352;1.0;0.48155737704918034
+vhigh;high;3;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3356;1.0;0.48155737704918034
+high;vhigh;4;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3513;1.0;0.48155737704918034
+med;med;2;4;med;high;acc;acc;persons = {4} AND safety = {high} AND maint = {med} AND lug_boot = {med};4;4;0.6923076923076923;0.029801324503311258;safety = high AND persons = 4 AND buying = med AND doors = 2 AND lug_boot = med AND maint = med;6;1.0;0.0;1.0;0.0033112582781456954
+low;med;3;more;med;high;vgood;good;persons = {more} AND safety = {high} AND buying = {low} AND maint = {med};4;4;0.5;0.06779661016949153;buying = low AND maint = med AND persons = more AND lug_boot = med AND doors = 3 AND safety = high;6;1.0;0.0;1.0;0.01694915254237288
+vhigh;high;5more;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3383;1.0;0.48155737704918034
+high;high;5more;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3349;1.0;0.48155737704918034
+high;low;2;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.338;1.0;0.48155737704918034
+vhigh;vhigh;3;more;med;med;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0686;1.0;0.09016393442622951
+med;low;2;4;big;high;vgood;vgood;persons = {4} AND safety = {high} AND buying = {med} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.08163265306122448;safety = high AND lug_boot = big AND buying = med AND maint = low AND persons = 4;5;1.0;0.0027;1.0;0.08163265306122448
+med;med;5more;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3366;1.0;0.48155737704918034
+high;low;5more;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3354;1.0;0.48155737704918034
+med;low;2;4;small;med;acc;acc;persons = {4} AND safety = {med} AND buying = {med} AND maint = {low} AND lug_boot = {small};5;5;1.0;0.009933774834437087;persons = 4 AND safety = med AND buying = med AND lug_boot = small AND maint = low;5;1.0;0.0017;1.0;0.009933774834437087
+med;low;4;more;med;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {med} AND maint = {low} AND lug_boot = {med};5;5;0.6666666666666666;0.04081632653061224;safety = high AND buying = med AND maint = low AND persons = more AND lug_boot = med AND doors = 4;6;1.0;0.0;1.0;0.02040816326530612
+med;vhigh;3;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {med};3;3;0.5641025641025641;0.0728476821192053;persons = more AND safety = med AND lug_boot = big AND buying = med AND maint = vhigh;5;1.0;0.0004;1.0;0.006622516556291391
+low;high;2;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3454;1.0;0.48155737704918034
+vhigh;low;4;more;small;high;acc;acc;persons = {more} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.023178807947019868;safety = high AND persons = more AND doors = 4 AND lug_boot = small AND maint = low AND buying = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+low;low;3;more;med;high;vgood;good;persons = {more} AND safety = {high} AND buying = {low} AND maint = {low} AND lug_boot = {med};5;5;0.5;0.03389830508474576;buying = low AND maint = low AND persons = more AND doors = 3 AND safety = high AND lug_boot = med;6;1.0;0.0;1.0;0.01694915254237288
+med;high;2;more;big;high;acc;acc;persons = {more} AND safety = {high} AND buying = {med} AND maint = {high} AND lug_boot = {big};5;5;1.0;0.013245033112582781;safety = high AND persons = more AND maint = high AND buying = med AND lug_boot = big;5;1.0;0.0026;1.0;0.013245033112582781
+low;vhigh;4;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3399;1.0;0.48155737704918034
+low;low;4;more;small;high;good;good;persons = {more} AND safety = {high} AND buying = {low} AND maint = {low} AND lug_boot = {small};5;5;0.6666666666666666;0.03389830508474576;maint = low AND buying = low AND persons = more AND safety = high AND lug_boot = small AND doors = 4;6;1.0;0.0;1.0;0.01694915254237288
+med;vhigh;5more;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3501;1.0;0.48155737704918034
+vhigh;vhigh;4;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.338;1.0;0.48155737704918034
+low;vhigh;5more;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3339;1.0;0.46209016393442626
+low;low;5more;more;big;med;good;good;persons = {more} AND safety = {med} AND buying = {low} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.06779661016949153;buying = low AND maint = low AND safety = med AND lug_boot = big AND persons = more;5;1.0;0.0026;1.0;0.06779661016949153
+high;vhigh;5more;4;med;high;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0582;1.0;0.08299180327868852
+high;vhigh;2;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.34;1.0;0.48155737704918034
+high;med;2;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.335;1.0;0.48155737704918034
+low;high;3;more;med;med;acc;acc;persons = {more} AND safety = {med} AND buying = {low} AND maint = {high} AND lug_boot = {med};5;5;1.0;0.009933774834437087;persons = more AND safety = med AND doors = 3 AND lug_boot = med AND maint = high AND buying = low;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;vhigh;4;4;big;med;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0613;1.0;0.09016393442622951
+vhigh;vhigh;3;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3248;1.0;0.46209016393442626
+low;med;3;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3328;1.0;0.46209016393442626
+vhigh;vhigh;4;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3435;1.0;0.48155737704918034
+med;low;3;4;med;med;acc;good;persons = {4} AND safety = {med} AND buying = {med} AND maint = {low};4;4;0.75;0.1016949152542373;maint = low AND buying = med AND safety = med AND persons = 4 AND lug_boot = med;5;1.0;0.0005;1.0;0.03389830508474576
+low;low;3;more;small;high;good;good;persons = {more} AND safety = {high} AND buying = {low} AND maint = {low} AND lug_boot = {small};5;5;0.6666666666666666;0.03389830508474576;maint = low AND buying = low AND persons = more AND doors = 3 AND safety = high AND lug_boot = small;6;1.0;0.0;1.0;0.01694915254237288
+low;high;3;more;small;med;acc;acc;persons = {more} AND safety = {med} AND buying = {low} AND maint = {high};4;4;0.8888888888888888;0.026490066225165563;persons = more AND safety = med AND maint = high AND buying = low AND doors = 3;5;1.0;0.0004;1.0;0.006622516556291391
+med;low;5more;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3292;1.0;0.46209016393442626
+low;vhigh;3;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3267;1.0;0.46209016393442626
+low;vhigh;5more;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {low} AND maint = {vhigh} AND lug_boot = {big};5;5;1.0;0.013245033112582781;persons = more AND safety = med AND lug_boot = big AND doors = 5more AND buying = low AND maint = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;low;3;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3304;1.0;0.46209016393442626
+med;low;5more;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3324;1.0;0.48155737704918034
+vhigh;high;4;more;med;high;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.0668;1.0;0.09221311475409837
+vhigh;low;4;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3294;1.0;0.46209016393442626
+vhigh;low;5more;4;small;med;unacc;unacc;safety = {med} AND buying = {vhigh} AND lug_boot = {small};3;3;1.0;0.0389344262295082;buying = vhigh AND lug_boot = small AND safety = med;3;1.0;0.0284;1.0;0.0389344262295082
+vhigh;med;2;more;med;high;acc;acc;persons = {more} AND safety = {high} AND buying = {vhigh} AND maint = {med} AND lug_boot = {med};5;5;1.0;0.013245033112582781;safety = high AND persons = more AND lug_boot = med AND doors = 2 AND maint = med AND buying = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+low;med;2;more;med;high;good;good;persons = {more} AND safety = {high} AND buying = {low} AND maint = {med};4;4;0.5;0.06779661016949153;buying = low AND maint = med AND persons = more AND lug_boot = med AND doors = 2 AND safety = high;6;1.0;0.0;1.0;0.01694915254237288
+vhigh;low;2;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.336;1.0;0.48155737704918034
+vhigh;vhigh;4;4;small;high;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0664;1.0;0.09016393442622951
+med;low;3;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.345;1.0;0.48155737704918034
+low;low;2;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3228;1.0;0.46209016393442626
+med;low;3;4;med;high;good;good;persons = {4} AND safety = {high} AND buying = {med} AND maint = {low};4;4;0.5;0.0847457627118644;maint = low AND buying = med AND persons = 4 AND safety = high AND doors = 3 AND lug_boot = med;6;1.0;0.0;1.0;0.01694915254237288
+low;low;3;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3387;1.0;0.48155737704918034
+high;low;3;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {high} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.013245033112582781;safety = med AND persons = more AND lug_boot = big AND buying = high AND maint = low;5;1.0;0.0024;1.0;0.013245033112582781
+low;vhigh;3;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {low};3;3;0.5675675675675675;0.0695364238410596;persons = 4 AND safety = med AND lug_boot = big AND doors = 3 AND buying = low AND maint = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;low;5more;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3332;1.0;0.48155737704918034
+low;low;3;4;med;med;acc;good;persons = {4} AND safety = {med} AND buying = {low} AND maint = {low} AND lug_boot = {med};5;5;1.0;0.05084745762711865;maint = low AND buying = low AND safety = med AND persons = 4 AND lug_boot = med;5;1.0;0.0018;1.0;0.05084745762711865
+low;vhigh;4;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3412;1.0;0.48155737704918034
+med;med;2;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3408;1.0;0.48155737704918034
+high;vhigh;3;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3324;1.0;0.46209016393442626
+high;low;5more;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3463;1.0;0.48155737704918034
+vhigh;vhigh;3;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3389;1.0;0.48155737704918034
+med;low;2;more;med;med;acc;good;persons = {more} AND safety = {med} AND buying = {med} AND maint = {low} AND lug_boot = {med};5;5;1.0;0.06779661016949153;maint = low AND buying = med AND safety = med AND lug_boot = med AND persons = more;5;1.0;0.003;1.0;0.06779661016949153
+high;low;3;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3237;1.0;0.46209016393442626
+vhigh;low;5more;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3413;1.0;0.48155737704918034
+med;vhigh;5more;more;med;high;acc;acc;persons = {more} AND safety = {high} AND buying = {med} AND maint = {vhigh} AND lug_boot = {med};5;5;1.0;0.009933774834437087;safety = high AND persons = more AND lug_boot = med AND buying = med AND maint = vhigh;5;1.0;0.0016;1.0;0.009933774834437087
+vhigh;vhigh;5more;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3346;1.0;0.48155737704918034
+med;low;5more;more;med;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {med} AND maint = {low} AND lug_boot = {med};5;5;0.6666666666666666;0.04081632653061224;safety = high AND maint = low AND buying = med AND persons = more AND lug_boot = med AND doors = 5more;6;1.0;0.0;1.0;0.02040816326530612
+high;vhigh;4;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3411;1.0;0.48155737704918034
+vhigh;med;2;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3257;1.0;0.46209016393442626
+vhigh;med;3;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3214;1.0;0.46209016393442626
+med;low;5more;more;small;med;acc;acc;persons = {more} AND safety = {med} AND buying = {med} AND maint = {low} AND lug_boot = {small};5;5;0.6666666666666666;0.006622516556291391;persons = more AND safety = med AND buying = med AND doors = 5more AND lug_boot = small AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+high;high;2;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {high} AND maint = {high};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND buying = high AND maint = high;4;1.0;0.0056;1.0;0.029801324503311258
+low;vhigh;5more;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {low};3;3;0.5675675675675675;0.0695364238410596;persons = 4 AND safety = med AND lug_boot = big AND doors = 5more AND buying = low AND maint = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+high;med;2;4;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3413;1.0;0.48155737704918034
+low;low;3;4;small;med;acc;acc;persons = {4} AND safety = {med} AND buying = {low} AND maint = {low} AND lug_boot = {small};5;5;1.0;0.013245033112582781;persons = 4 AND safety = med AND buying = low AND lug_boot = small AND maint = low;5;1.0;0.0028;1.0;0.013245033112582781
+vhigh;low;2;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.329;1.0;0.46209016393442626
+high;vhigh;4;4;small;high;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0523;1.0;0.08299180327868852
+vhigh;low;2;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3416;1.0;0.48155737704918034
+vhigh;vhigh;3;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3251;1.0;0.46209016393442626
+med;med;3;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {med};3;3;0.6216216216216216;0.076158940397351;safety = high AND persons = 4 AND buying = med AND lug_boot = small AND maint = med;5;1.0;0.0;1.0;0.0033112582781456954
+low;med;5more;4;big;high;vgood;vgood;persons = {4} AND safety = {high} AND buying = {low} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.061224489795918366;safety = high AND buying = low AND lug_boot = big AND persons = 4 AND maint = med;5;1.0;0.0024;1.0;0.061224489795918366
+med;low;2;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.343;1.0;0.48155737704918034
+high;high;2;4;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3383;1.0;0.48155737704918034
+med;vhigh;2;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3202;1.0;0.46209016393442626
+low;vhigh;5more;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3428;1.0;0.48155737704918034
+high;vhigh;2;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3446;1.0;0.48155737704918034
+vhigh;med;4;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3273;1.0;0.46209016393442626
+vhigh;low;2;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3337;1.0;0.48155737704918034
+vhigh;vhigh;3;4;big;high;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;maint = vhigh AND buying = vhigh;2;1.0;0.0655;1.0;0.09016393442622951
+med;high;2;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3212;1.0;0.46209016393442626
+high;low;2;more;big;high;acc;acc;persons = {more} AND safety = {high} AND buying = {high} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.009933774834437087;safety = high AND persons = more AND buying = high AND maint = low;4;0.9647058823529412;0.0062;0.9090909090909091;0.033112582781456956
+high;vhigh;5more;4;med;med;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0561;1.0;0.08299180327868852
+high;low;5more;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3175;1.0;0.46209016393442626
+vhigh;vhigh;4;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3195;1.0;0.46209016393442626
+med;vhigh;3;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.326;1.0;0.46209016393442626
+vhigh;med;3;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {vhigh} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.013245033112582781;persons = 4 AND safety = med AND lug_boot = big AND maint = med AND buying = vhigh;5;1.0;0.0023;1.0;0.013245033112582781
+high;low;4;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3392;1.0;0.48155737704918034
+high;high;4;more;med;high;acc;acc;persons = {more} AND safety = {high} AND buying = {high} AND maint = {high} AND lug_boot = {med};5;5;1.0;0.013245033112582781;safety = high AND persons = more AND buying = high AND maint = high AND lug_boot = med;5;1.0;0.0025;1.0;0.013245033112582781
+med;med;5more;4;med;high;vgood;vgood;persons = {4} AND safety = {high} AND buying = {med} AND maint = {med};4;4;0.8571428571428571;0.12244897959183673;safety = high AND maint = med AND buying = med AND persons = 4 AND doors = 5more AND lug_boot = med;6;1.0;0.0;1.0;0.02040816326530612
+low;vhigh;5more;4;big;high;acc;acc;persons = {4} AND safety = {high} AND buying = {low} AND maint = {vhigh};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND doors = 5more AND maint = vhigh AND buying = low;5;1.0;0.0019;1.0;0.009933774834437087
+vhigh;med;4;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3307;1.0;0.48155737704918034
+high;med;5more;4;med;high;acc;acc;persons = {4} AND safety = {high} AND buying = {high} AND maint = {med};4;4;1.0;0.039735099337748346;safety = high AND persons = 4 AND buying = high AND maint = med;4;1.0;0.0084;1.0;0.039735099337748346
+vhigh;high;5more;more;med;high;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.0614;1.0;0.09221311475409837
+high;high;4;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3416;1.0;0.48155737704918034
+med;vhigh;4;more;big;high;acc;acc;persons = {more} AND safety = {high} AND buying = {med} AND maint = {vhigh} AND lug_boot = {big};5;5;1.0;0.013245033112582781;safety = high AND persons = more AND buying = med AND maint = vhigh AND lug_boot = big;5;1.0;0.0023;1.0;0.013245033112582781
+low;med;4;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3254;1.0;0.46209016393442626
+vhigh;low;5more;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3393;1.0;0.48155737704918034
+vhigh;low;5more;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3399;1.0;0.48155737704918034
+high;vhigh;3;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3403;1.0;0.48155737704918034
+vhigh;low;4;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {vhigh} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.009933774834437087;safety = med AND persons = 4 AND lug_boot = big AND doors = 4 AND buying = vhigh AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;med;4;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3254;1.0;0.46209016393442626
+vhigh;high;5more;4;med;high;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.0622;1.0;0.09221311475409837
+med;low;2;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3244;1.0;0.46209016393442626
+low;low;3;4;big;med;good;good;persons = {4} AND safety = {med} AND buying = {low} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.06779661016949153;maint = low AND buying = low AND safety = med AND lug_boot = big AND persons = 4;5;1.0;0.0019;1.0;0.06779661016949153
+med;high;4;4;med;high;acc;acc;persons = {4} AND safety = {high} AND buying = {med} AND maint = {high};4;4;1.0;0.033112582781456956;safety = high AND persons = 4 AND maint = high AND buying = med;4;1.0;0.0066;1.0;0.033112582781456956
+vhigh;med;2;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3413;1.0;0.48155737704918034
+vhigh;low;4;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3426;1.0;0.48155737704918034
+vhigh;low;5more;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.033112582781456956;persons = 4 AND safety = high AND lug_boot = small AND doors = 5more AND buying = vhigh AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;med;3;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3379;1.0;0.48155737704918034
+vhigh;vhigh;4;4;med;med;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;maint = vhigh AND buying = vhigh;2;1.0;0.0638;1.0;0.09016393442622951
+low;vhigh;5more;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3526;1.0;0.48155737704918034
+vhigh;med;5more;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {vhigh} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.013245033112582781;persons = more AND safety = med AND maint = med AND lug_boot = big AND buying = vhigh;5;1.0;0.0025;1.0;0.013245033112582781
+vhigh;high;2;4;big;med;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.071;1.0;0.09221311475409837
+low;low;5more;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3408;1.0;0.48155737704918034
+low;high;2;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3283;1.0;0.46209016393442626
+med;low;3;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3197;1.0;0.46209016393442626
+high;high;2;4;med;high;acc;acc;persons = {4} AND safety = {high} AND buying = {high} AND maint = {high};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND buying = high AND maint = high;4;1.0;0.0061;1.0;0.029801324503311258
+low;med;2;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3275;1.0;0.46209016393442626
+low;vhigh;3;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3231;1.0;0.46209016393442626
+vhigh;med;5more;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3399;1.0;0.48155737704918034
+high;vhigh;5more;more;small;med;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0563;1.0;0.08299180327868852
+vhigh;high;4;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.338;1.0;0.48155737704918034
+low;med;3;more;big;med;good;good;persons = {more} AND safety = {med} AND buying = {low} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.06779661016949153;buying = low AND maint = med AND safety = med AND persons = more AND lug_boot = big;5;1.0;0.0019;1.0;0.06779661016949153
+vhigh;med;3;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3276;1.0;0.46209016393442626
+med;vhigh;4;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3327;1.0;0.46209016393442626
+low;vhigh;3;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3236;1.0;0.46209016393442626
+low;med;5more;4;big;med;good;good;persons = {4} AND safety = {med} AND buying = {low} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.06779661016949153;buying = low AND maint = med AND safety = med AND lug_boot = big AND persons = 4;5;1.0;0.0029;1.0;0.06779661016949153
+high;vhigh;2;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3394;1.0;0.48155737704918034
+low;high;2;4;small;med;acc;acc;persons = {4} AND safety = {med} AND buying = {low} AND maint = {high};4;4;1.0;0.033112582781456956;persons = 4 AND safety = med AND buying = low AND maint = high;4;1.0;0.0062;1.0;0.033112582781456956
+vhigh;low;2;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3295;1.0;0.46209016393442626
+high;med;3;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3321;1.0;0.46209016393442626
+med;vhigh;2;more;big;med;acc;acc;persons = {more} AND safety = {med} AND buying = {med};3;3;0.5641025641025641;0.0728476821192053;safety = med AND persons = more AND lug_boot = big AND buying = med AND maint = vhigh;5;1.0;0.0011;1.0;0.006622516556291391
+high;med;4;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3191;1.0;0.46209016393442626
+high;low;2;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.335;1.0;0.48155737704918034
+med;med;4;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {med};3;3;0.6216216216216216;0.076158940397351;safety = high AND persons = 4 AND buying = med AND lug_boot = small AND maint = med;5;1.0;0.0;1.0;0.0033112582781456954
+high;high;2;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3228;1.0;0.46209016393442626
+vhigh;high;4;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3405;1.0;0.48155737704918034
+low;vhigh;3;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3396;1.0;0.48155737704918034
+med;med;2;more;med;high;acc;acc;persons = {more} AND safety = {high} AND buying = {med};3;3;0.5526315789473685;0.0695364238410596;safety = high AND persons = more AND buying = med AND lug_boot = med AND doors = 2 AND maint = med;6;1.0;0.0;1.0;0.0033112582781456954
+low;med;3;4;big;high;vgood;vgood;persons = {4} AND safety = {high} AND buying = {low} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.061224489795918366;safety = high AND buying = low AND lug_boot = big AND persons = 4 AND maint = med;5;1.0;0.0019;1.0;0.061224489795918366
+vhigh;vhigh;4;more;small;med;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0631;1.0;0.09016393442622951
+vhigh;high;2;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.322;1.0;0.46209016393442626
+high;high;4;4;med;med;acc;acc;persons = {4} AND safety = {med} AND maint = {high};3;3;0.5;0.06622516556291391;persons = 4 AND safety = med AND maint = high AND doors = 4 AND lug_boot = med AND buying = high;6;1.0;0.0;1.0;0.0033112582781456954
+high;low;3;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3422;1.0;0.48155737704918034
+vhigh;med;2;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3403;1.0;0.48155737704918034
+low;vhigh;4;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3282;1.0;0.46209016393442626
+vhigh;low;3;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.336;1.0;0.48155737704918034
+med;high;3;4;med;high;acc;acc;persons = {4} AND safety = {high} AND buying = {med} AND maint = {high};4;4;1.0;0.033112582781456956;safety = high AND persons = 4 AND maint = high AND buying = med;4;1.0;0.0072;1.0;0.033112582781456956
+high;med;4;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3378;1.0;0.48155737704918034
+vhigh;med;5more;more;small;med;unacc;unacc;safety = {med} AND buying = {vhigh} AND lug_boot = {small};3;3;1.0;0.0389344262295082;buying = vhigh AND lug_boot = small AND safety = med;3;1.0;0.0272;1.0;0.0389344262295082
+vhigh;vhigh;3;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.336;1.0;0.48155737704918034
+low;vhigh;2;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {low} AND maint = {vhigh};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND lug_boot = small AND doors = 2 AND buying = low AND maint = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+high;med;5more;4;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3409;1.0;0.48155737704918034
+med;vhigh;5more;more;small;high;acc;acc;persons = {more} AND safety = {high} AND buying = {med} AND maint = {vhigh};4;4;0.8888888888888888;0.026490066225165563;safety = high AND persons = more AND buying = med AND maint = vhigh AND doors = 5more;5;1.0;0.0002;1.0;0.006622516556291391
+vhigh;vhigh;4;more;med;med;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0633;1.0;0.09016393442622951
+low;high;4;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3414;1.0;0.48155737704918034
+high;vhigh;3;more;med;high;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0599;1.0;0.08299180327868852
+med;vhigh;2;4;small;med;unacc;unacc;safety = {med} AND maint = {vhigh} AND lug_boot = {small};3;3;1.0;0.040983606557377046;maint = vhigh AND lug_boot = small AND safety = med;3;1.0;0.0283;1.0;0.040983606557377046
+high;vhigh;3;more;big;high;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0593;1.0;0.08299180327868852
+low;vhigh;3;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3388;1.0;0.48155737704918034
+low;vhigh;5more;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.346;1.0;0.48155737704918034
+vhigh;med;5more;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3354;1.0;0.48155737704918034
+high;vhigh;2;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3242;1.0;0.46209016393442626
+vhigh;high;2;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3419;1.0;0.48155737704918034
+high;vhigh;3;4;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3429;1.0;0.48155737704918034
+med;high;4;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3401;1.0;0.48155737704918034
+low;vhigh;5more;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3258;1.0;0.46209016393442626
+med;med;5more;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3397;1.0;0.48155737704918034
+vhigh;low;4;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3246;1.0;0.46209016393442626
+med;vhigh;5more;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.328;1.0;0.46209016393442626
+med;low;5more;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3466;1.0;0.48155737704918034
+high;vhigh;5more;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3268;1.0;0.46209016393442626
+med;high;3;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3341;1.0;0.48155737704918034
+high;med;4;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3203;1.0;0.46209016393442626
+high;med;5more;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3173;1.0;0.46209016393442626
+low;vhigh;5more;4;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3461;1.0;0.48155737704918034
+high;vhigh;3;more;small;med;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0595;1.0;0.08299180327868852
+vhigh;low;5more;4;big;high;acc;acc;persons = {4} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.033112582781456956;safety = high AND persons = 4 AND doors = 5more AND lug_boot = big AND buying = vhigh AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+high;vhigh;2;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3313;1.0;0.48155737704918034
+high;high;4;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {high} AND maint = {high} AND lug_boot = {big};5;5;1.0;0.013245033112582781;persons = 4 AND safety = med AND lug_boot = big AND maint = high AND buying = high;5;1.0;0.0035;1.0;0.013245033112582781
+vhigh;high;3;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3453;1.0;0.48155737704918034
+high;low;5more;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3338;1.0;0.48155737704918034
+high;high;3;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3326;1.0;0.48155737704918034
+low;med;5more;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3354;1.0;0.48155737704918034
+low;low;3;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3402;1.0;0.48155737704918034
+vhigh;low;3;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {vhigh} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.009933774834437087;persons = 4 AND safety = med AND lug_boot = big AND doors = 3 AND buying = vhigh AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+low;med;2;more;big;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {low} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.061224489795918366;safety = high AND buying = low AND lug_boot = big AND persons = more AND maint = med;5;1.0;0.0018;1.0;0.061224489795918366
+vhigh;high;4;more;med;med;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.0653;1.0;0.09221311475409837
+high;med;4;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.344;1.0;0.48155737704918034
+vhigh;med;3;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3265;1.0;0.46209016393442626
+low;vhigh;4;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {low};3;3;0.5675675675675675;0.0695364238410596;persons = 4 AND safety = med AND lug_boot = big AND doors = 4 AND buying = low AND maint = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;med;4;more;small;med;unacc;unacc;safety = {med} AND buying = {vhigh} AND lug_boot = {small};3;3;1.0;0.0389344262295082;buying = vhigh AND lug_boot = small AND safety = med;3;1.0;0.0277;1.0;0.0389344262295082
+low;high;4;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.327;1.0;0.46209016393442626
+low;med;4;more;med;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {low} AND maint = {med};4;4;0.5;0.08163265306122448;safety = high AND buying = low AND persons = more AND doors = 4 AND lug_boot = med AND maint = med;6;1.0;0.0;1.0;0.02040816326530612
+med;high;2;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3221;1.0;0.46209016393442626
+high;high;2;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3399;1.0;0.48155737704918034
+low;med;2;4;med;med;acc;good;persons = {4} AND safety = {med} AND buying = {low} AND maint = {med} AND lug_boot = {med};5;5;0.75;0.05084745762711865;buying = low AND maint = med AND safety = med AND lug_boot = med AND persons = 4 AND doors = 2;6;1.0;0.0;1.0;0.01694915254237288
+low;med;2;more;med;med;acc;good;persons = {more} AND safety = {med} AND buying = {low} AND maint = {med} AND lug_boot = {med};5;5;1.0;0.05084745762711865;buying = low AND safety = med AND maint = med AND persons = more AND lug_boot = med;5;1.0;0.0019;1.0;0.05084745762711865
+vhigh;med;3;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3214;1.0;0.46209016393442626
+vhigh;low;5more;more;small;high;acc;acc;persons = {more} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.023178807947019868;safety = high AND persons = more AND doors = 5more AND lug_boot = small AND maint = low AND buying = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+med;med;3;more;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.335;1.0;0.48155737704918034
+vhigh;low;3;4;med;high;acc;acc;persons = {4} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.033112582781456956;safety = high AND persons = 4 AND doors = 3 AND lug_boot = med AND buying = vhigh AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+low;high;4;4;big;med;acc;acc;persons = {4} AND safety = {med} AND buying = {low} AND maint = {high};4;4;1.0;0.033112582781456956;persons = 4 AND safety = med AND lug_boot = big AND maint = high AND buying = low;5;1.0;0.0019;1.0;0.013245033112582781
+high;low;3;more;small;med;unacc;unacc;safety = {med} AND buying = {high} AND lug_boot = {small};3;3;1.0;0.042008196721311473;lug_boot = small AND buying = high AND safety = med;3;1.0;0.03;1.0;0.042008196721311473
+low;vhigh;2;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3363;1.0;0.48155737704918034
+high;med;4;4;med;med;acc;acc;persons = {4} AND safety = {med} AND maint = {med};3;3;0.6136363636363636;0.08940397350993377;persons = 4 AND safety = med AND maint = med AND doors = 4 AND lug_boot = med AND buying = high;6;1.0;0.0;1.0;0.0033112582781456954
+med;low;3;4;small;high;good;good;persons = {4} AND safety = {high} AND buying = {med} AND maint = {low} AND lug_boot = {small};5;5;1.0;0.06779661016949153;maint = low AND buying = med AND persons = 4 AND safety = high AND lug_boot = small;5;1.0;0.0014;1.0;0.06779661016949153
+low;med;5more;4;med;high;vgood;vgood;persons = {4} AND safety = {high} AND buying = {low} AND maint = {med} AND lug_boot = {med};5;5;0.5;0.04081632653061224;safety = high AND buying = low AND persons = 4 AND doors = 5more AND lug_boot = med AND maint = med;6;1.0;0.0;1.0;0.02040816326530612
+vhigh;low;2;more;big;high;acc;acc;persons = {more} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.023178807947019868;safety = high AND persons = more AND lug_boot = big AND buying = vhigh AND maint = low;5;1.0;0.0027;1.0;0.013245033112582781
+med;med;4;4;small;med;acc;acc;persons = {4} AND safety = {med} AND buying = {med} AND maint = {med};4;4;1.0;0.039735099337748346;persons = 4 AND safety = med AND maint = med AND buying = med;4;1.0;0.0084;1.0;0.039735099337748346
+vhigh;high;4;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3226;1.0;0.46209016393442626
+high;low;2;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3338;1.0;0.48155737704918034
+high;vhigh;5more;4;big;high;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.057;1.0;0.08299180327868852
+vhigh;low;5more;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3333;1.0;0.48155737704918034
+med;med;3;more;big;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {med} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.061224489795918366;safety = high AND lug_boot = big AND maint = med AND buying = med AND persons = more;5;1.0;0.0014;1.0;0.061224489795918366
+high;high;3;4;big;high;acc;acc;persons = {4} AND safety = {high} AND buying = {high} AND maint = {high};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND buying = high AND maint = high;4;1.0;0.0066;1.0;0.029801324503311258
+vhigh;low;3;more;med;high;acc;acc;persons = {more} AND safety = {high} AND buying = {vhigh} AND maint = {low};4;4;1.0;0.023178807947019868;safety = high AND persons = more AND lug_boot = med AND doors = 3 AND maint = low AND buying = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+high;med;2;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3302;1.0;0.46209016393442626
+high;vhigh;5more;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3446;1.0;0.48155737704918034
+high;low;5more;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3283;1.0;0.46209016393442626
+med;high;2;4;small;med;unacc;unacc;safety = {med} AND buying = {med} AND maint = {high} AND lug_boot = {small};4;4;1.0;0.010245901639344262;lug_boot = small AND doors = 2 AND maint = high AND safety = med AND buying = med;5;1.0;0.0015;1.0;0.0030737704918032786
+med;med;4;more;med;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {med} AND maint = {med} AND lug_boot = {med};5;5;1.0;0.061224489795918366;safety = high AND buying = med AND maint = med AND persons = more AND lug_boot = med AND doors = 4;6;1.0;0.0;1.0;0.02040816326530612
+high;vhigh;5more;2;small;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.326;1.0;0.46209016393442626
+low;vhigh;2;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3199;1.0;0.46209016393442626
+vhigh;high;4;4;med;med;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.065;1.0;0.09221311475409837
+med;med;2;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3296;1.0;0.46209016393442626
+med;low;3;4;small;med;acc;acc;persons = {4} AND safety = {med} AND buying = {med} AND maint = {low} AND lug_boot = {small};5;5;1.0;0.009933774834437087;persons = 4 AND safety = med AND buying = med AND doors = 3 AND lug_boot = small AND maint = low;6;1.0;0.0;1.0;0.0033112582781456954
+low;med;4;more;med;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3384;1.0;0.48155737704918034
+high;med;4;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3217;1.0;0.46209016393442626
+med;med;4;more;big;high;vgood;vgood;persons = {more} AND safety = {high} AND buying = {med} AND maint = {med} AND lug_boot = {big};5;5;1.0;0.061224489795918366;safety = high AND buying = med AND maint = med AND lug_boot = big AND persons = more;5;1.0;0.0002;1.0;0.061224489795918366
+high;low;4;more;big;high;acc;acc;persons = {more} AND safety = {high} AND buying = {high} AND maint = {low} AND lug_boot = {big};5;5;1.0;0.009933774834437087;persons = more AND safety = high AND buying = high AND maint = low;4;0.9520958083832335;0.0077;0.9090909090909091;0.033112582781456956
+high;med;5more;more;med;high;acc;acc;persons = {more} AND safety = {high} AND buying = {high} AND maint = {med} AND lug_boot = {med};5;5;1.0;0.013245033112582781;safety = high AND persons = more AND buying = high AND maint = med AND lug_boot = med;5;1.0;0.0023;1.0;0.013245033112582781
+vhigh;high;5more;4;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.346;1.0;0.48155737704918034
+vhigh;vhigh;2;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3405;1.0;0.48155737704918034
+vhigh;med;3;more;med;med;acc;acc;persons = {more} AND safety = {med} AND buying = {vhigh} AND maint = {med} AND lug_boot = {med};5;5;0.75;0.009933774834437087;persons = more AND safety = med AND maint = med AND doors = 3 AND lug_boot = med AND buying = vhigh;6;1.0;0.0;1.0;0.0033112582781456954
+med;vhigh;4;more;med;high;acc;acc;persons = {more} AND safety = {high} AND buying = {med} AND maint = {vhigh} AND lug_boot = {med};5;5;1.0;0.009933774834437087;safety = high AND persons = more AND buying = med AND maint = vhigh AND lug_boot = med;5;1.0;0.0015;1.0;0.009933774834437087
+high;high;5more;more;med;med;acc;acc;persons = {more} AND safety = {med} AND buying = {high} AND maint = {high} AND lug_boot = {med};5;5;0.75;0.009933774834437087;persons = more AND safety = med AND doors = 5more AND lug_boot = med AND buying = high AND maint = high;6;1.0;0.0;1.0;0.0033112582781456954
+low;vhigh;2;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3475;1.0;0.48155737704918034
+high;high;4;more;big;high;acc;acc;persons = {more} AND safety = {high} AND buying = {high} AND maint = {high} AND lug_boot = {big};5;5;1.0;0.013245033112582781;safety = high AND persons = more AND buying = high AND maint = high AND lug_boot = big;5;1.0;0.0017;1.0;0.013245033112582781
+low;vhigh;3;more;med;med;acc;acc;persons = {more} AND safety = {med} AND buying = {low} AND maint = {vhigh} AND lug_boot = {med};5;5;0.75;0.009933774834437087;persons = more AND safety = med AND lug_boot = med AND doors = 3 AND maint = vhigh AND buying = low;6;1.0;0.0;1.0;0.0033112582781456954
+vhigh;low;5more;2;med;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3462;1.0;0.48155737704918034
+med;low;4;2;big;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3304;1.0;0.46209016393442626
+vhigh;low;3;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3371;1.0;0.48155737704918034
+vhigh;high;5more;4;small;med;unacc;unacc;buying = {vhigh} AND maint = {high};2;2;1.0;0.09221311475409837;buying = vhigh AND maint = high;2;1.0;0.0606;1.0;0.09221311475409837
+high;med;3;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3216;1.0;0.46209016393442626
+high;low;3;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3432;1.0;0.48155737704918034
+low;high;4;4;small;high;acc;acc;persons = {4} AND safety = {high} AND buying = {low} AND maint = {high} AND lug_boot = {small};5;5;1.0;0.013245033112582781;safety = high AND persons = 4 AND lug_boot = small AND maint = high AND buying = low;5;1.0;0.0024;1.0;0.013245033112582781
+med;high;3;2;small;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3329;1.0;0.48155737704918034
+high;med;2;2;big;low;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;safety = low;1;1.0;0.3386;1.0;0.48155737704918034
+low;med;2;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3238;1.0;0.46209016393442626
+low;high;5more;2;big;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3168;1.0;0.46209016393442626
+low;vhigh;2;4;big;high;acc;acc;persons = {4} AND safety = {high} AND buying = {low} AND maint = {vhigh};4;4;1.0;0.029801324503311258;safety = high AND persons = 4 AND doors = 2 AND maint = vhigh AND buying = low;5;1.0;0.0005;1.0;0.006622516556291391
+low;low;5more;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3254;1.0;0.46209016393442626
+med;high;3;more;small;med;unacc;unacc;safety = {med} AND buying = {med} AND maint = {high} AND lug_boot = {small};4;4;1.0;0.010245901639344262;lug_boot = small AND safety = med AND maint = high AND buying = med;4;1.0;0.0061;1.0;0.010245901639344262
+high;vhigh;4;more;small;high;unacc;unacc;buying = {high} AND maint = {vhigh};2;2;1.0;0.08299180327868852;maint = vhigh AND buying = high;2;1.0;0.0555;1.0;0.08299180327868852
+vhigh;vhigh;4;2;small;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3206;1.0;0.46209016393442626
+med;high;2;4;med;high;acc;acc;persons = {4} AND safety = {high} AND buying = {med} AND maint = {high};4;4;1.0;0.033112582781456956;safety = high AND persons = 4 AND buying = med AND maint = high;4;1.0;0.0066;1.0;0.033112582781456956
+med;med;3;2;med;high;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3216;1.0;0.46209016393442626
+high;high;2;4;big;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3486;1.0;0.48155737704918034
+vhigh;vhigh;3;4;big;med;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0647;1.0;0.09016393442622951
+vhigh;vhigh;5more;more;small;med;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0654;1.0;0.09016393442622951
+vhigh;med;4;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3223;1.0;0.46209016393442626
+med;low;2;more;small;low;unacc;unacc;safety = {low};1;1;1.0;0.48155737704918034;safety = low;1;1.0;0.3487;1.0;0.48155737704918034
+vhigh;vhigh;5more;more;small;high;unacc;unacc;buying = {vhigh} AND maint = {vhigh};2;2;1.0;0.09016393442622951;buying = vhigh AND maint = vhigh;2;1.0;0.0622;1.0;0.09016393442622951
+med;med;2;2;med;med;unacc;unacc;persons = {2};1;1;1.0;0.46209016393442626;persons = 2;1;1.0;0.3277;1.0;0.46209016393442626

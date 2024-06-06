@@ -1,0 +1,10 @@
+vars,fi
+clump_thickness,0.04687475
+cell_size_uniformity,0.29328704
+cell_shape_uniformity,0.4517411
+marginal_adhesion,0.01703112
+single_epi_cell_size,0.018702136
+bare_nuclei,0.071416415
+bland_chromatin,0.07285017
+normal_nucleoli,0.020860644
+mitoses,0.007236583
